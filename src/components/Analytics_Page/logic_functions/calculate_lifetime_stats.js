@@ -10,11 +10,11 @@ const calcLifetimeStats = (socialLinkList = [], profile_link, activityLinkList =
     // }
 
     for (let i = 0; i < socialLinkList.length; i++) {
-        totalClick += socialLinkList[i]?.click_details.length;
+        totalClick += socialLinkList[i]?.click_details?.length;
     }
 
     for (let i = 0; i < activityLinkList.length; i++) {
-        totalClick += activityLinkList[i]?.click_details.length;
+        totalClick += activityLinkList[i]?.click_details?.length;
     }
 
     let averageCtr = Math.round((totalView / totalClick) * 100);
