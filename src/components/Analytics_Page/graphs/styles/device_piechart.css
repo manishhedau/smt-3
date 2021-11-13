@@ -1,0 +1,32 @@
+.main-piechart
+{
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.main-piechart h1
+{
+    margin-bottom: 1rem;
+}
+
+.doughtnut-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 70%;
+}
+
+@media screen and (max-width: 668px){
+    .doughtnut-container
+    {
+        height: 100%;
+        width: 100%;
+    }
+}

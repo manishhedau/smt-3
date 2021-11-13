@@ -1,0 +1,22 @@
+.main-join-my-club{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.join-club{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.join-my-club-graph{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

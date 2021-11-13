@@ -1,0 +1,46 @@
+@media screen and (min-width: 1081px)
+{
+    #mobile-navbar
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 1080px)
+{
+    #mobile-navbar
+    {
+        width: 100vw;
+        height: 10vh;
+        background-color: #C4C4C4;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        display: flex;
+        padding-right: 10%;
+        /* align-items: center; */
+    }
+
+    *::-webkit-scrollbar {
+        display: none;
+      }
+
+    #mobile-navbar a
+    {
+        margin-left: 10%; 
+        display: flex;
+        width: auto;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        transition: 0.2s;
+        height: 100%;  
+        text-decoration: none;
+        color: black;
+    }
+
+    #mobile-navbar a:active
+    {
+        color: white;
+    }
+}

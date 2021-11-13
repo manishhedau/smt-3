@@ -1,0 +1,51 @@
+
+@media (min-width: 1081px)
+{
+    #mobile-nav-section
+    {
+        display: none;
+    }
+
+    .responsive-profile-link
+    {
+        display: flex;
+        justify-content: flex-end;
+        /* height: 10vh; */
+        /* background-color: antiquewhite; */
+        width: 100%;
+    }
+
+    .dashboard
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 100vw;
+        min-height: 100vh;
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (max-width: 1080px)
+{
+    .responsive-profile-link
+    {
+        display: none;
+        height: 10%;
+        background-color: antiquewhite;
+        width: 100%;
+    }
+
+    .dashboard
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 100vw;
+        min-height: 100vh;
+        height: auto;
+        width: auto;
+    }
+}
