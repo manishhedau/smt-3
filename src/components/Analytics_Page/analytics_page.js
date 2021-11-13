@@ -99,7 +99,7 @@ const AnalyticsPage = () => {
 
                     <div className="individual-numerical-stats">
                         <p><span style={{ fontSize: "3.2rem", color: "lightblue" }}>.</span>Views:</p>
-                        <h3>{calcTotalClicks(viewDateWiseFilterData)}</h3>
+                        <h3>{lifetimeStats.views}</h3>
                     </div>
 
                     <div className="individual-numerical-stats">
