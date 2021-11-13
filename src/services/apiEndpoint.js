@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://stm-1.herokuapp.com/' });
+const API = axios.create({ baseURL: 'https://smt-2.herokuapp.com/' });
 
 const fetUser = (id) => API.get(`/dashboard/${id}`);
 
