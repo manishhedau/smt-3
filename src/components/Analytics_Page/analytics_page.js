@@ -46,13 +46,13 @@ const AnalyticsPage = () => {
         }
     ]);
 
-    const calcTotalClicks = (arr) => {
-        let total = 0;
+    // const calcTotalClicks = (arr) => {
+    //     let total = 0;
 
-        arr.forEach(elem => total++);
+    //     arr.forEach(elem => total++);
 
-        return total;
-    }
+    //     return total;
+    // }
 
     const lifetimeStats = calcLifetimeStats(socialLinks, editProfile.profile_link);
     const socialLinksData = filterSocialLinksData(state, socialLinks);
